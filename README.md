@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://cdn.simpleicons.org/huawei/CF0A2C" alt="Huawei Logo" width="90" />
+
 # Huawei Cloud & AI Learning Path
 
 ### A structured roadmap through Huawei Cloud certifications — from fundamentals to advanced architecture
