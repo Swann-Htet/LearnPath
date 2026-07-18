@@ -28,13 +28,22 @@
 
 ## Roadmap Overview
 
-```
-   BASIC              INTERMEDIATE
-+-------------+      +------------------+
-|Tech Essential| --->  |  Cloud Service   |
-|Cloud Native  |      |  Solution Arch.  |
-|AI - Basic    |      +------------------+
-+-------------+
+```mermaid
+flowchart LR
+    subgraph Basic["BASIC"]
+        direction TB
+        A1["HCCDA<br/>Tech Essential"]
+        A2["HCCDA<br/>Cloud Native"]
+        A3["HCCDA<br/>AI - Basic"]
+    end
+
+    subgraph Intermediate["INTERMEDIATE"]
+        direction TB
+        B1["HCIA<br/>Cloud Service"]
+        B2["HCCDP<br/>Solution Architecture"]
+    end
+
+    Basic --> Intermediate
 ```
 
 ---
